@@ -28,6 +28,11 @@ app.get('/', async (req, res) => {
   res.render('index', { photos });
 });
 
+app.get('/photos/:id', async (req, res) => {
+  const photo = await Photo.findById(req.params.id);
+  res.render('video-page', {photo})
+});
+
 app.get('/about', (req, res) => {
   res.render('about');
 });
@@ -38,8 +43,8 @@ app.get('/add', (req, res) => {
 
 // Action
 app.post('/photos', async (req, res) => {
-  Photo.create(req.body);
-  await res.redirect('/');
+  await Photo.create(req.body);
+  res.redirect('/');
 });
 
 // Port
