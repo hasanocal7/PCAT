@@ -46,9 +46,9 @@ app.get('/about', pageController.getAboutPage);
 app.get('/add', pageController.getAddPage);
 app.get('/photos/edit/:id', pageController.getEditPage);
 
-// Port
+// Server Connect
 const port = 3000;
 
 app.listen(port, () => {
-  console.log(`Sunucu ${port} portunda başlatıldı...`);
+  console.log(`Server is connected to ${port} 3000`);
 });
