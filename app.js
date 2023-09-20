@@ -46,9 +46,15 @@ app.get('/about', pageController.getAboutPage);
 app.get('/add', pageController.getAddPage);
 app.get('/photos/edit/:id', pageController.getEditPage);
 
+app.get('/endpoint', (req, res) => {
+  const paramValue = req.query.foo.toString();
+  // paramValue, "paramName" adındaki sorgu parametresinin değerini içerir.
+  res.send(`Value of paramName: ${paramValue}`);
+});
+
 // Server Connect
 const port = 3000;
 
 app.listen(port, () => {
-  console.log(`Server is connected to ${port} 3000`);
+  console.log(`Server is connected to ${port}...`);
 });
