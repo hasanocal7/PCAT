@@ -178,12 +178,16 @@ h2, p { color: #666666; }
 .tm-icon-submit:hover:before { top: 18px; }
 .tm-btn-cta:hover { color: white; }
 
-.tm-btn-download:hover,
-.tm-btn-download:focus,
 .tm-btn-submit:hover,
 .tm-btn-submit:focus {
     color: white;
     background-color: #3399CC;
+}
+
+.tm-btn-download:hover,
+.tm-btn-download:focus {
+    color: black;
+    background-color: white;
 }
 
 .tm-btn-download span { padding-top: 10px; }
@@ -335,7 +339,6 @@ h2, p { color: #666666; }
 .tm-likes-box,
 .tm-btn-download {
     width: 280px;
-    height: 60px;
 }
 
 .tm-likes-box { padding-top: 12px; }
