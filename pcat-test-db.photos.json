@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "650b4bdd721d62f469526b59"
+  },
+  "title": "asdasd",
+  "description": "zxczxczxc",
+  "image": "/uploads/Capture001.png",
+  "dateCreated": {
+    "$date": "2023-09-20T19:45:33.466Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650b4beb721d62f469526b5c"
+  },
+  "title": "zxczcz",
+  "description": "zxczxc",
+  "image": "/uploads/odev1.png",
+  "dateCreated": {
+    "$date": "2023-09-20T19:45:47.738Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650b4bfb721d62f469526b5f"
+  },
+  "title": "vzxvzxvz",
+  "description": "vzxvzvz",
+  "image": "/uploads/posts.png",
+  "dateCreated": {
+    "$date": "2023-09-20T19:46:03.411Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650b4c0b721d62f469526b62"
+  },
+  "title": "sdfsfsdfsd",
+  "description": "sdfsdfs",
+  "image": "/uploads/WIN_20230906_08_29_20_Pro.jpg",
+  "dateCreated": {
+    "$date": "2023-09-20T19:46:19.037Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650b4c31721d62f469526b65"
+  },
+  "title": "sdfsdf",
+  "description": "sdgsdgdsg",
+  "image": "/uploads/post-sample-image.jpg",
+  "dateCreated": {
+    "$date": "2023-09-20T19:46:57.202Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650b4c40721d62f469526b68"
+  },
+  "title": "asdasd",
+  "description": "asdasdasd",
+  "image": "/uploads/post-bg.jpg",
+  "dateCreated": {
+    "$date": "2023-09-20T19:47:12.422Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650b4c8920eee5838515d93c"
+  },
+  "title": "asdasd",
+  "description": "asdasda",
+  "image": "/uploads/home-bg.jpg",
+  "dateCreated": {
+    "$date": "2023-09-20T19:48:25.632Z"
+  },
+  "__v": 0
+}]

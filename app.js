@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const fileUpload = require('express-fileupload');
 const methodOverride = require('method-override');
 const ejs = require('ejs');
+const dotenv = require('dotenv');
 
 const fs = require('fs');
 const path = require('path');
@@ -12,14 +13,19 @@ const Photo = require('./models/Photo');
 const photoController = require('./controllers/photoControllers')
 const pageController = require('./controllers/pageControllers');
 
+dotenv.config
 
 // Create a App
 const app = express();
 
 // Connect DB
-mongoose.connect('mongodb://localhost/pcat-test-db', {
+mongoose.connect('mongodb+srv://root:hasan@atlascluster.4tjfe1d.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+}).then(() => {
+  console.log('DB Connected!')
+}).catch((err) => {
+  console.log(err)
 });
 
 // Template Engine
