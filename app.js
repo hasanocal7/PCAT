@@ -13,13 +13,13 @@ const Photo = require('./models/Photo');
 const photoController = require('./controllers/photoControllers')
 const pageController = require('./controllers/pageControllers');
 
-dotenv.config
+dotenv.config();
 
 // Create a App
 const app = express();
 
 // Connect DB
-mongoose.connect('mongodb+srv://root:hasan@atlascluster.4tjfe1d.mongodb.net/', {
+mongoose.connect(process.env.DB_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
